@@ -1,0 +1,9 @@
+config:
+  target: 'http://localhost:8080'
+  phases:
+    - duration: 30
+      arrivalRate: 200
+scenarios:
+  - flow:
+      - get:
+          url: "/book?isbn=1933988673"
