@@ -1,6 +1,10 @@
 {
-  "server_port": 8080,
-  "host": "localhost",
-  "port": 27017,
-  "db_name": "test"
+  "server": {
+    "port": 8080
+  },
+  "mongoDb": {
+    "host": "localhost",
+    "port": 27017,
+    "db_name": "test"
+  }
 }
